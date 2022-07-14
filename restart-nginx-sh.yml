@@ -1,0 +1,6 @@
+- name: Transfer and execute a script.
+  hosts: app-farm
+  tasks:
+
+     - name: Copy and Execute the script 
+       script: /home/ubuntu/resatart-nginx.sh
