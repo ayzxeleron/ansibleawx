@@ -3,4 +3,4 @@
   tasks:
 
      - name: Copy and Execute the script 
-       script: /home/ubuntu/resatart-nginx.sh
+       script: /home/ubuntu/restart-nginx.sh
