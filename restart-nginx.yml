@@ -1,0 +1,9 @@
+- hosts: app-farm
+  become: yes
+  tasks:
+
+  handlers:
+    - name: restart nginx
+      service:
+        name: nginx
+        state: restarted
