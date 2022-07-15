@@ -1,5 +1,5 @@
 - name: Transfer and execute a script.
-  hosts: 192.168.2.25
+  hosts: all
   tasks:
 
      - name: Copy and Execute the script 
